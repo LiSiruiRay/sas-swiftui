@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		711312692A5AAFD9006C187B /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711312682A5AAFD9006C187B /* AuthenticationView.swift */; };
+		71A2218F2A5B02D600D3B1BB /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A2218E2A5B02D600D3B1BB /* SignupView.swift */; };
 		71DB51E82A5AA0E4004A4D10 /* swiftui_with_firebaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DB51E72A5AA0E4004A4D10 /* swiftui_with_firebaseApp.swift */; };
 		71DB51EA2A5AA0E4004A4D10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DB51E92A5AA0E4004A4D10 /* ContentView.swift */; };
 		71DB51EC2A5AA0E6004A4D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71DB51EB2A5AA0E6004A4D10 /* Assets.xcassets */; };
@@ -14,6 +16,14 @@
 		71DB51F92A5AA0E6004A4D10 /* swiftui_with_firebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DB51F82A5AA0E6004A4D10 /* swiftui_with_firebaseTests.swift */; };
 		71DB52032A5AA0E6004A4D10 /* swiftui_with_firebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DB52022A5AA0E6004A4D10 /* swiftui_with_firebaseUITests.swift */; };
 		71DB52052A5AA0E6004A4D10 /* swiftui_with_firebaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DB52042A5AA0E6004A4D10 /* swiftui_with_firebaseUITestsLaunchTests.swift */; };
+		71DB52122A5AA16B004A4D10 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71DB52112A5AA16B004A4D10 /* GoogleService-Info.plist */; };
+		71DB52152A5AA369004A4D10 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 71DB52142A5AA369004A4D10 /* FirebaseAnalytics */; };
+		71DB52172A5AA369004A4D10 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 71DB52162A5AA369004A4D10 /* FirebaseAnalyticsSwift */; };
+		71DB52192A5AA369004A4D10 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 71DB52182A5AA369004A4D10 /* FirebaseAuth */; };
+		71DB521B2A5AA369004A4D10 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 71DB521A2A5AA369004A4D10 /* FirebaseDatabase */; };
+		71DB521D2A5AA369004A4D10 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 71DB521C2A5AA369004A4D10 /* FirebaseDatabaseSwift */; };
+		71DB52202A5AA8AB004A4D10 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DB521F2A5AA8AB004A4D10 /* LoginView.swift */; };
+		71DB52222A5AADB8004A4D10 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DB52212A5AADB8004A4D10 /* AuthenticationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		711312682A5AAFD9006C187B /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		71A2218E2A5B02D600D3B1BB /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		71DB51E42A5AA0E4004A4D10 /* swiftui-with-firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-with-firebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71DB51E72A5AA0E4004A4D10 /* swiftui_with_firebaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_with_firebaseApp.swift; sourceTree = "<group>"; };
 		71DB51E92A5AA0E4004A4D10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +56,9 @@
 		71DB51FE2A5AA0E6004A4D10 /* swiftui-with-firebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftui-with-firebaseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71DB52022A5AA0E6004A4D10 /* swiftui_with_firebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_with_firebaseUITests.swift; sourceTree = "<group>"; };
 		71DB52042A5AA0E6004A4D10 /* swiftui_with_firebaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_with_firebaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		71DB52112A5AA16B004A4D10 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		71DB521F2A5AA8AB004A4D10 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		71DB52212A5AADB8004A4D10 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +66,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71DB521D2A5AA369004A4D10 /* FirebaseDatabaseSwift in Frameworks */,
+				71DB52172A5AA369004A4D10 /* FirebaseAnalyticsSwift in Frameworks */,
+				71DB52192A5AA369004A4D10 /* FirebaseAuth in Frameworks */,
+				71DB521B2A5AA369004A4D10 /* FirebaseDatabase in Frameworks */,
+				71DB52152A5AA369004A4D10 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +116,9 @@
 			children = (
 				71DB51E72A5AA0E4004A4D10 /* swiftui_with_firebaseApp.swift */,
 				71DB51E92A5AA0E4004A4D10 /* ContentView.swift */,
+				71DB521E2A5AA769004A4D10 /* View */,
 				71DB51EB2A5AA0E6004A4D10 /* Assets.xcassets */,
+				71DB52112A5AA16B004A4D10 /* GoogleService-Info.plist */,
 				71DB51ED2A5AA0E6004A4D10 /* Preview Content */,
 			);
 			path = "swiftui-with-firebase";
@@ -127,6 +149,17 @@
 			path = "swiftui-with-firebaseUITests";
 			sourceTree = "<group>";
 		};
+		71DB521E2A5AA769004A4D10 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				71DB521F2A5AA8AB004A4D10 /* LoginView.swift */,
+				71DB52212A5AADB8004A4D10 /* AuthenticationViewModel.swift */,
+				711312682A5AAFD9006C187B /* AuthenticationView.swift */,
+				71A2218E2A5B02D600D3B1BB /* SignupView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +176,13 @@
 			dependencies = (
 			);
 			name = "swiftui-with-firebase";
+			packageProductDependencies = (
+				71DB52142A5AA369004A4D10 /* FirebaseAnalytics */,
+				71DB52162A5AA369004A4D10 /* FirebaseAnalyticsSwift */,
+				71DB52182A5AA369004A4D10 /* FirebaseAuth */,
+				71DB521A2A5AA369004A4D10 /* FirebaseDatabase */,
+				71DB521C2A5AA369004A4D10 /* FirebaseDatabaseSwift */,
+			);
 			productName = "swiftui-with-firebase";
 			productReference = 71DB51E42A5AA0E4004A4D10 /* swiftui-with-firebase.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +255,9 @@
 				Base,
 			);
 			mainGroup = 71DB51DB2A5AA0E4004A4D10;
+			packageReferences = (
+				71DB52132A5AA369004A4D10 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 71DB51E52A5AA0E4004A4D10 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +276,7 @@
 			files = (
 				71DB51EF2A5AA0E6004A4D10 /* Preview Assets.xcassets in Resources */,
 				71DB51EC2A5AA0E6004A4D10 /* Assets.xcassets in Resources */,
+				71DB52122A5AA16B004A4D10 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +301,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A2218F2A5B02D600D3B1BB /* SignupView.swift in Sources */,
+				71DB52222A5AADB8004A4D10 /* AuthenticationViewModel.swift in Sources */,
+				71DB52202A5AA8AB004A4D10 /* LoginView.swift in Sources */,
 				71DB51EA2A5AA0E4004A4D10 /* ContentView.swift in Sources */,
 				71DB51E82A5AA0E4004A4D10 /* swiftui_with_firebaseApp.swift in Sources */,
+				711312692A5AAFD9006C187B /* AuthenticationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +631,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		71DB52132A5AA369004A4D10 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		71DB52142A5AA369004A4D10 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71DB52132A5AA369004A4D10 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		71DB52162A5AA369004A4D10 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71DB52132A5AA369004A4D10 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		71DB52182A5AA369004A4D10 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71DB52132A5AA369004A4D10 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		71DB521A2A5AA369004A4D10 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71DB52132A5AA369004A4D10 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		71DB521C2A5AA369004A4D10 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71DB52132A5AA369004A4D10 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 71DB51DC2A5AA0E4004A4D10 /* Project object */;
 }
